@@ -15,6 +15,7 @@ namespace App1
             InitializeComponent();
             List<string> list = new List<string>() { "紅", "黃", "藍", "綠" };
             Random rand = new Random();
+            list.Add("紫");
             int index = rand.Next(0, list.Count);
             text1.Text = list[index];
             list.RemoveAt(index);
