@@ -45,11 +45,15 @@ namespace App1
                     }
                 }
             }
-
             foreach(int x in muns)
                 word += x + " ";
 
             Text1.Text = word;
+        }
+
+        private void Btnchange_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

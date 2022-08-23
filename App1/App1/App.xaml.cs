@@ -10,7 +10,7 @@ namespace App1
         {
             InitializeComponent();
 
-            MainPage = new Pglotto();
+            MainPage = new Pgcal();
         }
 
         protected override void OnStart()

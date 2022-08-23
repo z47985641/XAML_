@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.PgclickDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="一元二次方程式"
+                   FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+            <StackLayout
+                Orientation="Horizontal">
+                <Entry 
+                x:Name="text1" 
+                HorizontalOptions="FillAndExpand" />
+                <Label 
+                    FontSize="25"
+                    Text="X2 + "/>
+                <Entry 
+                x:Name="text2" 
+                HorizontalOptions="FillAndExpand" />
+                <Label 
+                    FontSize="25"
+                    Text="X + "/>
+                <Entry 
+                x:Name="text3" 
+                HorizontalOptions="FillAndExpand" />
+                <Label 
+                    FontSize="25"
+                    Text=" = 0"/>
+            </StackLayout>
+
+            <StackLayout
+                Orientation="Horizontal">
+                <Button
+                Text="解答"
+                   FontSize="20"
+                Clicked="Button_Clicked"
+
+                HorizontalOptions="Start" />
+            <Label Text="答案"
+                   FontSize="20"
+                   x:Name="anser"
+
+                HorizontalOptions="Start" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -7,8 +7,16 @@
             <Label Text="Welcome to Xamarin.Forms!"
                    FontSize="30"
                    x:Name="Text1"
-                VerticalOptions="StartAndExpand" 
+                VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button 
+                Text="Change"
+                FontSize="30"
+                Clicked="Btnchange_Clicked"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+
+                ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
