@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout Orientation="Vertical" Spacing="0">
+
+        <StackLayout 
+            Orientation="Horizontal"
+            VerticalOptions ="FillAndExpand"
+            Spacing="0">
+
+            <Label 
+               Text="1" 
+               FontSize="40"
+               BackgroundColor="	#FFE66F		"               
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               x:Name="text1"
+               />
+            <Label 
+               Text="2" 
+               FontSize="40"                
+               BackgroundColor="	#6FB7B7	"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+                x:Name="text2"
+               />
+
+
+            <Label 
+               Text="3" 
+               FontSize="40"                
+               BackgroundColor="	#A58070	"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+                x:Name="text3"
+               />
+            <Label 
+               Text="4" 
+               FontSize="40"                
+               BackgroundColor="		#B766AD	"
+               HorizontalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+                x:Name="text4"
+               />
+
+
+        </StackLayout>
+        <StackLayout 
+            Orientation="Vertical"
+            VerticalOptions ="FillAndExpand"
+            Spacing="0">
+        
+        <Label Text="A" 
+               FontSize="40"
+               BackgroundColor="	#FFF8D7	"               
+               VerticalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"               
+               />
+        <Label Text="B" 
+               FontSize="40"                
+               BackgroundColor="	#D1E9E9"
+               VerticalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               />
+        <Label Text="C" 
+               FontSize="40"                
+               BackgroundColor="	#E1C4C4"
+               VerticalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               />
+            <Label Text="D" 
+               FontSize="40"                
+               BackgroundColor="	#EBD3E8"
+               VerticalOptions="FillAndExpand"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               />
+
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
