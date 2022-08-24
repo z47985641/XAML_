@@ -1,4 +1,6 @@
-﻿using System;
+﻿using App1.mode;
+using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,13 +8,15 @@ namespace App1
 {
     public partial class App : Application
     {
+
+        
         public App()
         {
             InitializeComponent();
-
-            MainPage = new Pgcal();
+            MainPage =new NavigationPage( new Pgfrom());
         }
-
+        public string username { get; set; }
+        public List<Class1> from { get; set; }
         protected override void OnStart()
         {
         }

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pgfrom">
+    <ContentPage.Content>
+        
+        
+        <StackLayout 
+            BackgroundColor="#D1E9E9		"
+            >
+            <StackLayout 
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="#6FB7B7		"
+                >
+                   <Label Text="請假單"
+                FontSize="30"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                          />
+            </StackLayout>
+            <StackLayout 
+                VerticalOptions="FillAndExpand"
+                Orientation="Horizontal">
+                <CheckBox 
+                VerticalOptions="Start" 
+                HorizontalOptions="Start"
+                x:Name="chk核可"
+                    />
+                <Label Text="是否核准"
+                FontSize="20"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start"
+                       />
+
+            </StackLayout>
+
+            <Label 
+                Text="假單編號"
+                FontSize="20"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+
+            <Entry    
+                
+                x:Name="txtxId"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+            <Label 
+                Text="日期"
+                FontSize="20"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+
+            <Entry
+                
+                x:Name="txt日期"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+            <Label 
+                Text="申請人"
+                FontSize="20"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+
+            <Entry 
+                
+                x:Name="txt申請人"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+            <Label 
+                Text="理由"
+                FontSize="20"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+
+            <Entry
+                
+                x:Name="txt理由"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+            <Label 
+                Text="簽核人"
+                FontSize="20"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+
+            <Entry   
+                
+                x:Name="txt簽准人"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+            
+            
+            <StackLayout 
+                BackgroundColor="#6FB7B7"
+                VerticalOptions="FillAndExpand"
+                Orientation="Horizontal">
+                <ImageButton 
+                    BackgroundColor="#00000000"
+                    HorizontalOptions="FillAndExpand"
+                    Source="left"
+                    Clicked="Btnfirstimg"
+                    />
+                <ImageButton 
+                    BackgroundColor="#00000000"
+                    HorizontalOptions="FillAndExpand"
+                    Source="left"
+                    Clicked="Btnpreimg"
+                    />
+                <ImageButton 
+                    BackgroundColor="#00000000"
+                    HorizontalOptions="FillAndExpand"
+                    Source="right"
+                    Clicked="Btnnextimg"/>
+                <ImageButton 
+                    BackgroundColor="#00000000"
+                    HorizontalOptions="FillAndExpand"
+                    Source="right"
+                    Clicked="Btnlastimg"/>
+                <ImageButton 
+                    BackgroundColor="#00000000"
+                    HorizontalOptions="FillAndExpand"
+                    Source="search"
+                    Clicked="Btnsearch"/>
+                <ImageButton 
+                    BackgroundColor="#00000000"
+                    HorizontalOptions="FillAndExpand"
+                    Source="list"
+                    Clicked="Btnlist"/>
+            </StackLayout>
+
+        </StackLayout>
+      
+    </ContentPage.Content>
+</ContentPage>

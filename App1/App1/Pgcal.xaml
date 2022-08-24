@@ -42,92 +42,113 @@
                     Grid.Row="0"
                     Grid.Column="0"
                     HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="2"    
                     Grid.Row="0"
                     Grid.Column="1"                    
                     HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="3" 
                     Grid.Row="0"
                     Grid.Column="2"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="*" 
                     Grid.Row="0"
                     Grid.Column="3"                    
                         HorizontalOptions="Fill"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center" 
+                       Clicked="Btnop" 
+                        
+                        />
                     <Button                   
                     Text="4" 
                     Grid.Row="1"
                     Grid.Column="0"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="5" 
                     Grid.Row="1"
                     Grid.Column="1"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="6" 
                     Grid.Row="1"
                     Grid.Column="2"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="/" 
                     Grid.Row="1"
                     Grid.Column="3"                    
                         HorizontalOptions="Fill"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center" 
+                       Clicked="Btnop" 
+                        />
                     <Button                   
                     Text="7" 
                     Grid.Row="2"
                     Grid.Column="0"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="8" 
                     Grid.Row="2"
                     Grid.Column="1"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="9" 
                     Grid.Row="2"
                     Grid.Column="2"                    
                         HorizontalOptions="Fill"
+                    Clicked="Btnnum"     
                     VerticalOptions="Center" />
                     <Button                   
                     Text="-" 
                     Grid.Row="2"
                     Grid.Column="3"                    
                         HorizontalOptions="Fill"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center" 
+                       Clicked="Btnop" 
+                        />
                     <Button                   
                     Text="=" 
                     Grid.Row="3"
                     Grid.ColumnSpan="2"                      
                     HorizontalOptions="Fill"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center" 
+                       Clicked="Btncal"
+                        />
                     <Button                   
                     Text="0" 
                     Grid.Row="3"
                     Grid.Column="2"
                         HorizontalOptions="Fill"
-                    VerticalOptions="Center" />
+                     Clicked="Btnnum"     
+                   VerticalOptions="Center" />
 
                     <Button                   
                     Text="+" 
                     Grid.Row="3"
                     Grid.Column="3"                    
                         HorizontalOptions="Fill"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center" 
+                       Clicked="Btnop" 
+                        />
 
 
 
